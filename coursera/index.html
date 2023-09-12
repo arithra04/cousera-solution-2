@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+	
+<title>mod-2 solution</title>
+</head>
+
+<style>
+	* {
+		box-sizing: border-box;
+	}
+
+	 body{
+	 	background-color:white;
+	 }
+
+	 h1{
+	 	margin:100px;
+	 	text-align:center;
+	 	font-family: helvetica;
+	 	font-weight: bold;
+	 	font-size:175%;
+	 }
+
+	 section{
+	 	position:relative;
+	 	padding:15px;
+	 	width:100%;
+	 }
+
+	 p {
+	 	 postion:relative;
+	 	 clear: right;
+	 }
+
+	 div{
+	 	position:relative;
+	 	background-color:gray;
+	 	border:1px solid black;
+	 	width:100%;
+	 	margin-left:auto;
+	 	margin-right:auto;
+	 	margin bottom:auto;
+
+	 }
+
+	 .sub1{
+	 	float:right;
+	 	width:100px;
+	 	padding:5px;
+	 	margin:0pX;
+	 	border:1px ssolid black;
+	 	text-align:center;
+	 	font-size:125%;
+	 	font-weight:bold;
+	 	background-color:rgb(214,124,124);
+	 }
+
+	 .sub2{
+	 	float:right;
+	 	width:100px;
+	 	padding:5px;
+	 	margin:0px;
+	 	bordr:1px solid black;
+	 	font size:125%;
+	 	text-align:center;
+	    font-weight:bold ;
+	    background-color:maroon;
+	 }
+
+	 .sub3{
+	 	float:right;
+	 	width:100px;
+	 	padding:5px;
+	 	margin:0px;
+	 	border:1px solid black;
+	 	text-align:100px;
+	 	font-size:125%;
+	   font-weight:bold;
+	   background-color:yellow ;
+
+	 }
+	 .content{
+
+	 	padding:5px;
+	 	border:none;
+	 	background-color: gray;
+	 	font-family:helvetica;
+	 	color:black;
+	 	margin:0px;
+	 	height:200px;
+	 	overflow:auto;
+
+	 }
+
+	 .row{
+	 	width: 90%;
+	 }
+
+/*desktop version*/
+@media (min-width: 992px){
+	.column-lg-4{
+		float:left;
+		width:33.33%;
+	}
+}
+/*tablet version*/
+@media(min-width:768 px) and (max-width:991px){
+	.colmn-md-6{
+		float:left;
+		width:50%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.colmn-md-12{
+		float:left;
+		width:100%;
+		margin-left:auto;
+		margin-right:auto;
+	}
+}
+/*mobile version*/
+@media(max-width:767px){
+	.colmn-sm-12{
+		float:left;
+		width:100%
+	}
+}
+
+</style>
+
+<body>
+<h1> Our menu</h1>
+<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+	<div>
+		<p class="sub1">Chicken</p>
+		<p class="content">
+		Simple Indian chicken curry made delicious, spicy and hot with minimum ingredients. This is a basic recipe that can be tried even by beginners. It pairs great with rice, roti or paratha.easy and tasty South Indian Chicken Curry Recipe that is full of flavour. Enjoy it for lunch or dinner with a bowl of rice
+		 </p>
+	</div>
+</section>
+	<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+	<div>
+		<p class="sub2">Beef</p>
+		<p class="content">
+		Beef is the culinary name for meat from cattle. In prehistoric times, humankind hunted aurochs and later domesticated them. Since that time, numerous breeds of cattle have been bred specifically for the quality or quantity of their meat. Today, beef is the third most widely consumed meat in the world</p>
+	</div>
+</section>
+		<section class="column-lg-4 colmn-md-6 colmn-sm-12">
+			<div>
+				<p class="sub3">Sushi</p>
+				<p class="content">
+				Sushi is a Japanese dish of prepared vinegared rice (鮨飯, sushi-meshi), usually with some sugar and salt, accompanied by a variety of ingredients (ねた, neta), such as seafood—often raw—and vegetables. Styles of sushi and its presentation vary widely, but the one key ingredient is "sushi rice".</p>
+			
+		</body>
+</html>
